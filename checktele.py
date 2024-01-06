@@ -271,9 +271,8 @@ async def _(event):
                     await Tepthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-𝚂𝙾𝚄𝚁ᑕ𝙴𝚂 𝙾f 𝙿𝚁𝙸𝙽ᑕ𝙴𝚂
+
 𝚄𝚂𝙴𝚁 : @{username}        
-𝙲𝙷 ~ @DevEviI & @C35CS
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -330,9 +329,9 @@ async def _(event):
                         await Tepthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-𝚂𝙾𝚄𝚁ᑕ𝙴𝚂 𝙾f 𝙿𝚁𝙸𝙽ᑕ𝙴𝚂
+
 𝚄𝚂𝙴𝚁 : @{username}        
-𝙲𝙷 ~ @DevEviI & @C35CS
+
 
     ''')
                         break
@@ -364,9 +363,9 @@ async def _(event):
                 await Tepthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-𝚂𝙾𝚄𝚁ᑕ𝙴𝚂 𝙾f 𝙿𝚁𝙸𝙽ᑕ𝙴𝚂
+
 𝚄𝚂𝙴𝚁 : @{username}        
-𝙲𝙷 ~ @DevEviI & @C35CS
+
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
